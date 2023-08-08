@@ -8,7 +8,7 @@ While this code is provided publicly, I request that any use thereof be cited in
 This script was initially developed, implemented, and tested for work presented in Flury et al. 2022 ApJ 930, 126.
 
 ## Example Usage
-```
+``` python
 from kendall import *
 # gen random data
 np.random.seed(123)
@@ -30,7 +30,7 @@ print(f'censored Kendall tau: {tau:.3f}-{tau_lo:.3f}+{tau_up:.3f}, p: {p:.3e}')
 
 ## BibTeX Reference
 Flury et al. 2022 ApJ 930, 126.
-```
+``` bibtex
 @ARTICLE{2022ApJ...930..126F,
        author = {{Flury}, Sophia R. and {Jaskot}, Anne E. and {Ferguson}, Harry C. and {Worseck}, G{\'a}bor and {Makan}, Kirill and {Chisholm}, John and {Saldana-Lopez}, Alberto and {Schaerer}, Daniel and {McCandliss}, Stephan R. and {Xu}, Xinfeng and {Wang}, Bingjie and {Oey}, M.~S. and {Ford}, N.~M. and {Heckman}, Timothy and {Ji}, Zhiyuan and {Giavalisco}, Mauro and {Amor{\'\i}n}, Ricardo and {Atek}, Hakim and {Blaizot}, Jeremy and {Borthakur}, Sanchayeeta and {Carr}, Cody and {Castellano}, Marco and {De Barros}, Stephane and {Dickinson}, Mark and {Finkelstein}, Steven L. and {Fleming}, Brian and {Fontanot}, Fabio and {Garel}, Thibault and {Grazian}, Andrea and {Hayes}, Matthew and {Henry}, Alaina and {Mauerhofer}, Valentin and {Micheva}, Genoveva and {Ostlin}, Goran and {Papovich}, Casey and {Pentericci}, Laura and {Ravindranath}, Swara and {Rosdahl}, Joakim and {Rutkowski}, Michael and {Santini}, Paola and {Scarlata}, Claudia and {Teplitz}, Harry and {Thuan}, Trinh and {Trebitsch}, Maxime and {Vanzella}, Eros and {Verhamme}, Anne},
         title = "{The Low-redshift Lyman Continuum Survey. II. New Insights into LyC Diagnostics}",
