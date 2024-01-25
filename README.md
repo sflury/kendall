@@ -27,6 +27,10 @@ tau,p = kendall(x,y,censors=censors)
 tau_lo,tau_up = tau_conf(x,y,censors,method='bootstrap')
 print(f'censored Kendall tau: {tau:.3f}-{tau_lo:.3f}+{tau_up:.3f}, p: {p:.3e}')
 ```
+which prints the following to the command line
+```
+censored Kendall tau: 0.465-0.018+0.018, p: 1.094e-10
+```
 
 ## BibTeX Reference
 Flury et al. 2022 ApJ 930, 126.
