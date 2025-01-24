@@ -36,8 +36,8 @@ censored Kendall tau: 0.465-0.018+0.018, p: 1.094e-10
 ## BibTeX Reference
 
 ``` bibtex
-@SOFTWARE{kendall,
-       author = {{Flury}, Sophia R.,
+@SOFTWARE{Flury_kendall,
+       author = {{Flury}, Sophia R.},
         title = "{kendall}",
          year = 2023,
         month = aug,
