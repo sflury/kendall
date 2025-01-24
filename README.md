@@ -4,7 +4,8 @@ based on the two-variable correlation formalism of Akrita & Siebert. 1996. MNRAS
 Additional function is included to determine the sensitivity of the correlation coefficient 
 to individual datum (done by bootstrapping) and/or uncertainties in the data (done by Monte Carlo sampling).
 
-While this code is provided publicly, I request that any use thereof be cited in any publications in which this code is used.
+While this code is provided publicly, I request that any use thereof be cited in any publications in which this 
+code is used. For this purpose, the zenodo DOI is listed below as well as a BibTeX reference.
 This script was initially developed, implemented, and tested for work presented in Flury et al. 2022 ApJ 930, 126.
 
 ## Example Usage
@@ -33,7 +34,23 @@ censored Kendall tau: 0.465-0.018+0.018, p: 1.094e-10
 ```
 
 ## BibTeX Reference
-Flury et al. 2022 ApJ 930, 126.
+
+``` bibtex
+@SOFTWARE{kendall,
+       author = {{Flury}, Sophia R.,
+        title = "{kendall}",
+         year = 2023,
+        month = aug,
+      version = {1.0.0},
+          url = {https://github.com/sflury/kendall},
+          doi = {10.5281/zenodo.14732912} }
+```
+
+Zenodo DOI badge:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14732913.svg)](https://doi.org/10.5281/zenodo.14732913)
+
+### Flury et al. 2022 ApJ 930, 126.
 ``` bibtex
 @ARTICLE{2022ApJ...930..126F,
        author = {{Flury}, Sophia R. and {Jaskot}, Anne E. and {Ferguson}, Harry C. and {Worseck}, G{\'a}bor and {Makan}, Kirill and {Chisholm}, John and {Saldana-Lopez}, Alberto and {Schaerer}, Daniel and {McCandliss}, Stephan R. and {Xu}, Xinfeng and {Wang}, Bingjie and {Oey}, M.~S. and {Ford}, N.~M. and {Heckman}, Timothy and {Ji}, Zhiyuan and {Giavalisco}, Mauro and {Amor{\'\i}n}, Ricardo and {Atek}, Hakim and {Blaizot}, Jeremy and {Borthakur}, Sanchayeeta and {Carr}, Cody and {Castellano}, Marco and {De Barros}, Stephane and {Dickinson}, Mark and {Finkelstein}, Steven L. and {Fleming}, Brian and {Fontanot}, Fabio and {Garel}, Thibault and {Grazian}, Andrea and {Hayes}, Matthew and {Henry}, Alaina and {Mauerhofer}, Valentin and {Micheva}, Genoveva and {Ostlin}, Goran and {Papovich}, Casey and {Pentericci}, Laura and {Ravindranath}, Swara and {Rosdahl}, Joakim and {Rutkowski}, Michael and {Santini}, Paola and {Scarlata}, Claudia and {Teplitz}, Harry and {Thuan}, Trinh and {Trebitsch}, Maxime and {Vanzella}, Eros and {Verhamme}, Anne},
@@ -51,6 +68,27 @@ archivePrefix = {arXiv},
        eprint = {2203.15649},
  primaryClass = {astro-ph.GA},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2022ApJ...930..126F},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
+### Akritas & Seibert 1996
+``` bibtex
+@ARTICLE{1996MNRAS.278..919A,
+       author = {{Akritas}, M.~G. and {Siebert}, J.},
+        title = "{A test for partial correlation with censored astronomical data}",
+      journal = {\mnras},
+     keywords = {METHODS: STATISTICAL, GALAXIES: ACTIVE, X-RAYS: GALAXIES, Astrophysics},
+         year = 1996,
+        month = feb,
+       volume = {278},
+       number = {4},
+        pages = {919-924},
+          doi = {10.1093/mnras/278.4.919},
+archivePrefix = {arXiv},
+       eprint = {astro-ph/9508018},
+ primaryClass = {astro-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1996MNRAS.278..919A},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
